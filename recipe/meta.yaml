@@ -1,5 +1,5 @@
 {% set name = "seclea_ai" %}
-{% set version = "0.0.48" %}
+{% set version = "0.0.50" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   # url: https://github.com/seclea/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   # Leaving this in just as reference if we move back to GitHub releases.
-  sha256: 5e76941735503f4b96b23df7e09abfac11cb425237d86180a0852ce21e4a06f8
+  sha256: 6a074800d6d37854a1490a59c0c83c3665029c31806c86b9d6251aacd1b95e57
 
 build:
   noarch: python
