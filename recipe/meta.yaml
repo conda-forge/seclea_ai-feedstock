@@ -1,6 +1,7 @@
 {% set name = "seclea_ai" %}
 {% set version = "0.0.50" %}
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
