@@ -9,7 +9,9 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   # url: https://github.com/seclea/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   # Leaving this in just as reference if we move back to GitHub releases.
+
   sha256: 281446b1f90aa4a2cf15feb72b121e6d4627a84b2f65f11cacac6fed6b8b3577
+
 
 build:
   noarch: python
