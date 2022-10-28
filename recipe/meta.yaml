@@ -20,12 +20,12 @@ build:
 requirements:
   build:
   host:
-    - { { compiler('c') } }
+    - {{ compiler('c') }}
     - make
-    - python >=3.7
+    - python
     - pip
   run:
-    - python >=3.7
+    - python
     - dill >=0.3.4
     - decorator
     - pandas >=1.3.0
