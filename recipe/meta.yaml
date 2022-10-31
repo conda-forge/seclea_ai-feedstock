@@ -27,6 +27,8 @@ requirements:
     - python
     - pip
   run:
+    - {{ compiler('c') }}
+    - cmake
     - python
     - dill >=0.3.4
     - decorator
