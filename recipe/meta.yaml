@@ -20,10 +20,10 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - make
+    - cmake
   host:
     - {{ compiler('c') }}
-    - make
+    - cmake
     - python
     - pip
   run:
