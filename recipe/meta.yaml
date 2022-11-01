@@ -1,5 +1,5 @@
 {% set name = "seclea_ai" %}
-{% set version = "0.1.2" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ source:
   # url: https://github.com/seclea/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   # Leaving this in just as reference if we move back to GitHub releases.
 
-  sha256: 281446b1f90aa4a2cf15feb72b121e6d4627a84b2f65f11cacac6fed6b8b3577
+  sha256: 80024380a5514f91a8c9a17a68d7fd1eb38855ba36552f5ec23dd493a26a11ab
 
 
 build:
